@@ -1,0 +1,103 @@
+.about{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+.about__container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+
+
+/*Team*/
+.team{
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, .2);
+}
+
+.team__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*Might change to 2*/
+    gap: 2rem;
+
+}
+
+.team__member-info h4 {
+    margin-top: .8rem;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.team__memeber{
+    background: var(--color-bg2);
+    padding: 2rem;
+    border: 1px solid transparent;
+    border-radius: 1.1rem;
+}
+
+.team__memeber:hover{
+    
+    border-color: var(--color-yellow);
+    transition: var(--transition);
+}
+
+.team__member-image img{
+    border-radius:1rem;
+
+}
+
+/*Tabelts*/
+@media screen and (max-width:1024px) {
+
+    .team__container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 1rem;
+       
+    
+    }
+
+    .about{
+        margin-bottom: -0.1rem;
+        
+    }
+
+
+    
+
+    .about__container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 1.38rem;
+        margin-bottom: -2rem;
+        text-align: center;
+    
+    }
+
+    about__left {
+        margin:0 auto;
+    }
+
+}
+
+/*Phones*/
+@media screen and (max-width:600px)   {
+    .team__container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 1rem;
+    
+    }
+
+    .about__container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 1.8rem;
+        margin-bottom: -2rem;
+        text-align: center;
+    
+    }
+
+}
