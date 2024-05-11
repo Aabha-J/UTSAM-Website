@@ -27,7 +27,7 @@ closeMenu.addEventListener('click', ()=> {
 )
 
 //Intitalize Swiper
-  var swiper = new Swiper(".mySwiper", {
+ /* var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
     speed:1100,
@@ -44,4 +44,4 @@ closeMenu.addEventListener('click', ()=> {
         delay: 3000,
         disableOnInteraction: false, 
     },
-  });
+  });*/
