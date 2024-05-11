@@ -188,9 +188,8 @@ nav{
 
 header{
     position: relative;
-    top:5rem;
-    overflow: auto;
-    height: 70vh;
+    top:6rem;
+    height: auto;
     margin-bottom: 4rem;
 }
 
