@@ -191,6 +191,7 @@ header{
     top:6rem;
     height: auto;
     margin-bottom: 4rem;
+    overflow: hidden;
 }
 
 .header__container{
