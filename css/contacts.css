@@ -31,12 +31,12 @@
 
 .contact__aside{
     background:var(--color-bg2) ;
-    margin-top: 2.6rem;
+    margin-top: 2.3rem;
     padding: 3rem;
     border-radius: 1rem;
     position: relative;
     bottom: 8rem;
-    height: 32rem;
+    height: 33rem;
 }
 
 /*Form*/

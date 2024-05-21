@@ -37,6 +37,11 @@
 
 }
 
+.social-list {
+    width: 88%; 
+    
+}
+
 /*--Tablets*/
 @media screen and (max-width:1024px) {
     .ways_container{
@@ -58,7 +63,10 @@
     .ways_container{
         margin-top: 1.6rem;
     }
-    
+    .social-list {
+        width: auto;   
+        margin-right: 0.48rem;
+    }
 }
 
 /*--Phones*/
@@ -75,5 +83,8 @@
 
     .ways_container{
         margin-top: 1.6rem;
+    }
+    .social-list {
+        width: 100%;   
     }
 }

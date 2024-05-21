@@ -124,6 +124,10 @@ img {
     color:var(--color-bg);
 }
 
+.social-list:hover {
+    fill:var(--color-yellow);
+}
+
 
 
 .logo-link {
@@ -269,6 +273,11 @@ header{
 
 .category p{
     font-size: 1rem;
+}
+
+.home__social-container{
+    display: inline;
+    gap: 1rem;
 }
 
 
@@ -456,6 +465,10 @@ header{
         height:auto;
         margin-right: 0;
         margin-left: 0;
+    }
+
+    .home__social-container{
+        display: block;
     }
 
     .sponsor_section{
