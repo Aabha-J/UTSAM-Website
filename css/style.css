@@ -229,8 +229,7 @@ header{
 
 .categories{
     background-color:var(--color-bg1) ;
-    height: 33rem;
-
+    height: 33.9rem;
 }
 
 .categories h1{
@@ -277,7 +276,10 @@ header{
 
 .home__social-container{
     display: inline;
-    gap: 1rem;
+}
+
+.home__social-container a{
+    margin-bottom: 0.7rem;
 }
 
 
@@ -285,7 +287,7 @@ header{
 /**Sponsors*/
 .sponsor_section{
     position: relative;
-    top:1rem;
+    top: 1.9rem;
    align-items: center;
     line-height: 2.22rem;
     overflow: hidden;
