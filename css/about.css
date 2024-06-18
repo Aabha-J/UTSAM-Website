@@ -19,7 +19,7 @@
 
 .team__container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /*Might change to 2*/
+    grid-template-columns: repeat(4, 1fr); /*Might change to 2*/
     gap: 2rem;
 
 }
@@ -27,12 +27,16 @@
 .team__member-info h4 {
     margin-top: .8rem;
     font-weight: 600;
-    font-size: larger;
+    
+}
+
+.team__member-info p {
+    font-size: 1.1rem;
 }
 
 .team__memeber{
     background: var(--color-bg2);
-    padding: 2rem;
+    padding: 1.4rem;
     border: 1px solid transparent;
     border-radius: 1.1rem;
 }
@@ -53,7 +57,7 @@
 
     .team__container{
         display: grid;
-        grid-template-columns: repeat(3, 1fr); 
+        grid-template-columns: repeat(2, 1fr); 
         gap: 1rem;
        
     
